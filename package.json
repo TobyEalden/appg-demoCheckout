@@ -1,0 +1,17 @@
+{
+  "name": "portal",
+  "version": "0.0.0",
+  "description": "test portal for Aegis PPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "toby.ealden@gmail.com",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.3.4",
+    "jade": "~0.32.0",
+    "node-rest-client": "~0.5.0"
+  }
+}

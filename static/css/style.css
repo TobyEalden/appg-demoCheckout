@@ -1,0 +1,126 @@
+html, body, form
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: #333;
+    /*background-image: url("/images/background.003.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    background-color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+p a
+{
+    text-decoration: underline;
+}
+
+p a:hover
+{
+    text-decoration: none;
+}
+
+section
+{
+    background-color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #efefef;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.subtitle
+{
+    font-size: 1.5em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menuContainer
+{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #af9f8d;
+    border-bottom: 1px solid #776748;
+}
+
+.menu
+{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuItem
+{
+    padding: 10px;
+    border-right: 1px solid #776748;
+    border-left: 1px solid #efefef;
+    display: inline-block;
+}
+
+.menuItemStart
+{
+    border-right: 1px solid #776748;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuItemStop
+{
+    border-left: 1px solid #efefef;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a
+{
+    color: black;
+}
+
+table
+{
+}
+
+th
+{
+    font-weight: normal;
+    text-align: left;
+}
+
+td
+{
+}
+
+.copyright
+{
+    float: right;
+    padding:5px;
+    font-size: .8em;
+    text-align: right;
+}
